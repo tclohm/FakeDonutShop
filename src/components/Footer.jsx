@@ -7,7 +7,7 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-lg font-semibold mb-4">Mandy's Donuts</h3>
-            <p>Serving LA's favorite donuts since 1980.</p>
+            <p>Serving LA donuts since 1980.</p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
@@ -34,16 +34,16 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="blur-sm">
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li>805 W Manchester Blvd</li>
-              <li>Inglewood, CA 90301</li>
-              <li>(310) 645-4707</li>
-              <li>info@randysdonuts.com</li>
+              <li>xxx Xxxxxxxxxx Blvd</li>
+              <li>Coolbeans, CA XXXXXX</li>
+              <li>(xxx) xxx-xxxx</li>
+              <li>xxx@xxxxxxx.com</li>
             </ul>
           </div>
-          <div>
+          <div className="blur-sm">
             <h3 className="text-lg font-semibold mb-4">Hours</h3>
             <ul className="space-y-2">
               <li>Monday - Friday: 5:30am - 9:00pm</li>

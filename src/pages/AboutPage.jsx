@@ -13,16 +13,13 @@ function AboutPage() {
           <div>
             <h2 className="text-2xl font-semibold mb-4">Our Story</h2>
             <p className="text-lg mb-4">
-              Mandy's Donuts has been a landmark in Los Angeles since 1980. Our iconic giant donut sign has been
-              featured in countless movies, TV shows, and photos.
+             Honest donuts. Honest ingredients. No biography needed.
             </p>
             <p className="text-lg mb-4">
-              We take pride in our handcrafted donuts made fresh daily using premium ingredients and recipes that have
-              stood the test of time.
+             Our cooperative of bakers owns every step of the process, from selecting premium ingredients to perfecting time-tested recipes. We're not chasing Instagram fame—we're crafting your daily ritual.
             </p>
             <p className="text-lg">
-              What started as a small donut shop in Inglewood has grown into a beloved institution, serving generations
-              of Angelenos and visitors from around the world.
+              Simple. Fresh. Ours.               
             </p>
           </div>
           <div className="relative h-80 rounded-lg overflow-hidden">
@@ -35,21 +32,21 @@ function AboutPage() {
         </div>
 
         <div className="mb-16">
-          <h2 className="text-2xl font-semibold mb-6 text-center">Our Values</h2>
+          <h2 className="text-2xl font-semibold mb-6 text-center">Our Promise</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-medium mb-3">Quality Ingredients</h3>
+              <h3 className="text-xl font-medium mb-3">Quality Speaks</h3>
               <p>
-                We use only the finest ingredients in our donuts, ensuring that every bite is delicious and satisfying.
+                Premium ingredients. No shortcuts. Every donut, a testament to what matters.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-medium mb-3">Handcrafted Daily</h3>
-              <p>Our donuts are made fresh every day by skilled bakers who take pride in their craft.</p>
+              <h3 className="text-xl font-medium mb-3">Crafted With Intention</h3>
+              <p>From hands that care to your morning ritual. Fresh. Daily. Without exception.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-medium mb-3">Community First</h3>
-              <p>We're proud to be a part of the Los Angeles community and strive to give back whenever possible.</p>
+              <h3 className="text-xl font-medium mb-3">Rooted in Community</h3>
+              <p>More than a donut shop—we're your neighbors. Los Angeles grown, community owned.</p>
             </div>
           </div>
         </div>

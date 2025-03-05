@@ -20,9 +20,12 @@ function HomePage() {
           </div>
           <div className="absolute inset-0 z-20 flex items-center justify-center">
             <div className="container text-center text-white">
-              <h1 className="text-4xl md:text-6xl font-bold mb-4">World Famous Donuts</h1>
+              <h1 className="text-4xl md:text-6xl font-bold mb-4">LA Donuts</h1>
               <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-                Handcrafted with love since 1980. Experience the iconic taste of LA's favorite donuts.
+                Not World Famous. Just Damn Good.
+                We're not global. We're local.
+                Skip the hype. Taste the difference.
+                Every donut tells a story. Ours starts here. 
               </p>
               <Link to="/menu">
                 <Button size="lg" className="text-lg">
@@ -77,13 +80,13 @@ function HomePage() {
               <div>
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <p className="text-lg mb-6">
-                  Mandy's Donuts has been a landmark in Los Angeles since 1980. Our iconic giant donut sign has been
-                  featured in countless movies, TV shows, and photos.
+                  Born in the heart of Los Angeles in 1980, Mandy's Donuts isn't just a shop—it's a piece of city history.
                 </p>
                 <p className="text-lg mb-6">
-                  We take pride in our handcrafted donuts made fresh daily using premium ingredients and recipes that
-                  have stood the test of time.
-                </p>
+                 Real Ingredients. Real People.
+                100% Employee-Owned.
+                Ethically sourced. Locally loved.
+                Simple donuts.                </p>
                 <Link to="/about">
                   <Button variant="outline">Learn More</Button>
                 </Link>
