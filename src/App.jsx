@@ -7,6 +7,7 @@ import CartPage from "./pages/CartPage"
 import CheckoutPage from "./pages/CheckoutPage"
 import AboutPage from "./pages/AboutPage"
 import LocationsPage from "./pages/LocationsPage"
+import MapPage from "./pages/MapPage"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/checkout" element={<CheckoutPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/locations" element={<LocationsPage />} />
+          <Route path="/map" element={<MapPage />} />
         </Routes>
       </CartProvider>
     </Router>

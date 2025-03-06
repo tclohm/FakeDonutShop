@@ -1,20 +1,25 @@
 "use client"
-function HomePage() {
+
+import Header from "../components/Header"
+import Footer from "../components/Footer"
+import { MapPin } from "lucide-react"
+
+function MapPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-1">
         <section className="relative">
-          <div className="absolute inset-0 z-10 bg-black/40" />
+          <div className="absolute inset-0" />
           <div className="relative h-[70vh] w-full">
-            <div
-              src="DonutWallpaper.png"
-              alt="Delicious donuts display"
+            <img
+              src="FakeLosAngelesMap.png"
+              alt="Fake Map"
               className="h-full w-full object-cover"
             />
           </div>
           <div className="absolute inset-0 z-20 flex items-center justify-center">
-            <div>PIN</div>
+            <MapPin className="h-16 w-16 mr-2 mt-0.5 text-pink-900" />
           </div>
         </section>
     </main>
@@ -22,3 +27,5 @@ function HomePage() {
   </div>
   )
 }
+
+export default MapPage
