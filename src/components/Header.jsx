@@ -18,8 +18,8 @@ function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <img src="aidonut.png" alt="Mandy's Donuts Logo" className="w-10 h-10 rounded-full" />
-          <span className="text-xl font-bold">Mandy's Donuts</span>
+          <img src="aidonut.png" alt="Landy's Donuts Logo" className="w-10 h-10 rounded-full" />
+          <span className="text-xl font-bold">Landy's Donuts</span>
         </Link>
 
         <nav className="hidden md:flex gap-6">

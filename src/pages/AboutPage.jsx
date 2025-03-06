@@ -7,7 +7,7 @@ function AboutPage() {
     <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-1 container py-12">
-        <h1 className="text-4xl font-bold mb-8">About Mandy's Donuts</h1>
+        <h1 className="text-4xl font-bold mb-8">About Landy's Donuts</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
           <div>
@@ -25,7 +25,7 @@ function AboutPage() {
           <div className="relative h-80 rounded-lg overflow-hidden">
             <img
               src="DonutMaking.png"
-              alt="Mandy's Donuts storefront"
+              alt="Landy's Donuts storefront"
               className="h-full w-full object-cover"
             />
           </div>
@@ -55,7 +55,7 @@ function AboutPage() {
           <h2 className="text-2xl font-semibold mb-6 text-center">Our Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {[
-              { name: "Mandy Johnson", title: "Founder", image: "Mandy.png" },
+              { name: "Landy Johnson", title: "Founder", image: "Mandy.png" },
               { name: "Sarah Lee", title: "Head Baker", image: "Sarah.png" },
               { name: "Michael Chen", title: "Operations Manager", image: "Michael.png" },
               { name: "Jessica Rodriguez", title: "Customer Experience", image: "Jessica.png" },

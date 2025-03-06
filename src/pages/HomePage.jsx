@@ -80,7 +80,7 @@ function HomePage() {
               <div>
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <p className="text-lg mb-6">
-Born in the heart of Los Angeles in 1980, Mandy's Donuts isn't just a shop—it's a piece of city history.
+Born in the heart of Los Angeles in 1980, Landy's Donuts isn't just a shop—it's a piece of city history.
                 </p>
                 <p className="text-lg mb-6">
                  Real Ingredients. Real People.
@@ -94,7 +94,7 @@ Born in the heart of Los Angeles in 1980, Mandy's Donuts isn't just a shop—it'
               <div className="relative h-80 rounded-lg overflow-hidden">
                 <img
                   src="DonutTruck1980.png"
-                  alt="Mandy's Donuts storefront"
+                  alt="Landy's Donuts storefront"
                   className="h-full w-full object-cover"
                 />
               </div>
