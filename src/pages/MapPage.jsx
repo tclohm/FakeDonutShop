@@ -18,9 +18,19 @@ function MapPage() {
               className="h-full w-full object-cover"
             />
           </div>
-          <div className="absolute inset-0 z-20 flex items-center justify-center">
-            <MapPin className="h-16 w-16 mr-2 mt-0.5 text-pink-900" />
+          <div className="absolute z-20 bottom-0 right-0 flex items-center justify-center">
+            <MapPin className="h-16 w-16 mt-0.5 text-pink-900" />
           </div>
+          <div className="absolute z-20 bottom-0 left-0 flex items-center justify-center">
+            <MapPin className="h-16 w-16 mt-0.5 text-pink-900" />
+          </div>
+          <div className="absolute z-20 top-0 right-12 flex items-center justify-center">
+            <MapPin className="h-16 w-16 mt-0.5 text-pink-900" />
+          </div>
+          <div className="absolute z-20 top-12 left-12 flex items-center justify-center">
+            <MapPin className="h-8 w-8 mt-0.5 text-pink-900" />
+          </div>
+
         </section>
     </main>
     <Footer />
