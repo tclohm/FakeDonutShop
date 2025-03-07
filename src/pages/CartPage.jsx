@@ -6,7 +6,6 @@ import { Link } from "react-router-dom"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import { Button } from "../components/ui/button"
-import { Input } from "../components/ui/input"
 import { Minus, Plus, ShoppingBag, Trash2 } from "lucide-react"
 import { useCart } from "../contexts/CartContext"
 import { formatCurrency } from "../utils/formatCurrency"
@@ -142,57 +141,14 @@ function CartPage() {
                       <p>Total</p>
                       <p>{formatCurrency(total)}</p>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div className="border-t border-gray-200 px-6 py-6">
-                <h2 className="text-lg font-medium mb-4">Shipping Information</h2>
-                <div className="space-y-4">
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="col-span-2 sm:col-span-1">
-                      <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-1">
-                        First Name
-                      </label>
-                      <Input id="firstName" name="firstName" />
-                    </div>
-                    <div className="col-span-2 sm:col-span-1">
-                      <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-1">
-                        Last Name
-                      </label>
-                      <Input id="lastName" name="lastName" />
+                    <div className="mt-4">
+                      <Link to="/checkout">
+                        <Button className="w-full" size="lg">
+                          Proceed to Checkout
+                        </Button>
+                      </Link>
                     </div>
                   </div>
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                      Email
-                    </label>
-                    <Input id="email" name="email" type="email" />
-                  </div>
-                  <div>
-                    <label htmlFor="address" className="block text-sm font-medium text-gray-700 mb-1">
-                      Address
-                    </label>
-                    <Input id="address" name="address" />
-                  </div>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="col-span-2 sm:col-span-1">
-                      <label htmlFor="city" className="block text-sm font-medium text-gray-700 mb-1">
-                        City
-                      </label>
-                      <Input id="city" name="city" />
-                    </div>
-                    <div className="col-span-2 sm:col-span-1">
-                      <label htmlFor="zipCode" className="block text-sm font-medium text-gray-700 mb-1">
-                        ZIP Code
-                      </label>
-                      <Input id="zipCode" name="zipCode" />
-                    </div>
-                  </div>
-                  <Link to="/checkout">
-                    <Button className="w-full" size="lg">
-                      Proceed to Checkout
-                    </Button>
-                  </Link>
                 </div>
               </div>
             </div>

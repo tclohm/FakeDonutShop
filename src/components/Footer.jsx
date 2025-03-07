@@ -6,7 +6,7 @@ function Footer() {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">Mandy's Donuts</h3>
+            <h3 className="text-lg font-semibold mb-4">Landy's Donuts</h3>
             <p>Serving LA donuts since 1980.</p>
           </div>
           <div>
@@ -53,7 +53,7 @@ function Footer() {
           </div>
         </div>
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
-          <p>&copy; {new Date().getFullYear()} Mandy's Donuts. All rights reserved. Photos were created by AI. This is not a real business.</p>
+          <p>&copy; {new Date().getFullYear()} Landy's Donuts. All rights reserved. Photos were created by AI. This is not a real business.</p>
         </div>
       </div>
     </footer>

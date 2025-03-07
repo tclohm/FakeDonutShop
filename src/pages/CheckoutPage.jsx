@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Link, useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import { Button } from "../components/ui/button"
@@ -17,7 +17,6 @@ function CheckoutPage() {
   const { cart, clearCart } = useCart()
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isComplete, setIsComplete] = useState(false)
-  const navigate = useNavigate()
 
   const subtotal = cart.reduce((sum, item) => sum + item.price * item.quantity, 0)
   const tax = subtotal * 0.0925 // 9.25% sales tax
