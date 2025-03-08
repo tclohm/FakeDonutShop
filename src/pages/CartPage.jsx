@@ -61,6 +61,7 @@ function CartPage() {
                       <li key={item.id} className="py-6 flex">
                         <div className="relative h-24 w-24 rounded-md overflow-hidden flex-shrink-0">
                           <img
+                            loading="lazy"
                             src={item.image || "/placeholder.svg"}
                             alt={item.name}
                             className="h-full w-full object-cover"

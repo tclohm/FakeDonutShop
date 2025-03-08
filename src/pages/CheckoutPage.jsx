@@ -177,6 +177,7 @@ function CheckoutPage() {
                       <div className="flex items-center">
                         <div className="relative h-16 w-16 rounded-md overflow-hidden mr-4">
                           <img
+                            loading="lazy"
                             src={item.image || "/placeholder.svg"}
                             alt={item.name}
                             className="h-full w-full object-cover"

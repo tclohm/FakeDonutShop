@@ -13,6 +13,7 @@ function MapPage() {
           <div className="absolute inset-0" />
           <div className="relative h-[70vh] w-full">
             <img
+              loading="lazy"
               src="FakeLosAngelesMap.png"
               alt="Fake Map"
               className="h-full w-full object-cover"

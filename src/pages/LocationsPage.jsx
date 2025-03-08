@@ -50,8 +50,9 @@ function LocationsPage() {
             <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="relative h-60">
                 <img
+                  loading="lazy"
                   src={location.image || "/placeholder.svg"}
-                  alt={`Randy's Donuts ${location.name} location`}
+                  alt={`Landy's Donuts ${location.name} location`}
                   className="h-full w-full object-cover"
                 />
               </div>

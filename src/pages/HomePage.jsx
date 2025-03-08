@@ -13,6 +13,7 @@ function HomePage() {
           <div className="absolute inset-0 z-10 bg-black/40" />
           <div className="relative h-[70vh] w-full">
             <img
+              loading="lazy"
               src="DonutWallpaper.png"
               alt="Delicious donuts display"
               className="h-full w-full object-cover"

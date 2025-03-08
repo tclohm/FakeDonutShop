@@ -24,6 +24,7 @@ function AboutPage() {
           </div>
           <div className="relative h-80 rounded-lg overflow-hidden">
             <img
+              loading="lazy"
               src="DonutMaking.png"
               alt="Landy's Donuts storefront"
               className="h-full w-full object-cover"

@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, Suspense } from "react"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/ui/tabs"
@@ -166,7 +166,9 @@ function MenuPage() {
             <TabsContent value="classics">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {menuData.classics.map((item) => (
-                  <MenuCard key={item.id} item={item} />
+                  <Suspense fallback={<LoadingCard/>}>
+                    <MenuCard key={item.id} item={item} />
+                  </Suspense>
                 ))}
               </div>
             </TabsContent>
@@ -174,7 +176,9 @@ function MenuPage() {
             <TabsContent value="specialty">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {menuData.specialty.map((item) => (
-                  <MenuCard key={item.id} item={item} />
+                  <Suspense fallback={<LoadingCard />}>
+                    <MenuCard key={item.id} item={item} />
+                  </Suspense>
                 ))}
               </div>
             </TabsContent>
@@ -182,7 +186,9 @@ function MenuPage() {
             <TabsContent value="seasonal">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {menuData.seasonal.map((item) => (
-                  <MenuCard key={item.id} item={item} />
+                  <Suspense fallback={<LoadingCard />}>
+                    <MenuCard key={item.id} item={item} />
+                  </Suspense>
                 ))}
               </div>
             </TabsContent>
@@ -190,7 +196,9 @@ function MenuPage() {
             <TabsContent value="beverages">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {menuData.beverages.map((item) => (
-                  <MenuCard key={item.id} item={item} />
+                  <Suspense fallback={<LoadingCard />}>
+                    <MenuCard key={item.id} item={item} />
+                  </Suspense>
                 ))}
               </div>
             </TabsContent>
@@ -205,8 +213,8 @@ function MenuPage() {
 function MenuCard({ item }) {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden" id={item.name.toLowerCase().replace(/\s+/g, "-")}>
-      <div className="relative h-60">
-        <img src={item.image || "/placeholder.svg"} alt={item.name} className="h-full w-full object-cover" />
+      <div className="relative h-60 flex text-center">
+        <img src={item.image || "/placeholder.svg"} alt={item.name} loading="lazy" className="h-full w-full object-cover bg-gray-200 text-center" />
       </div>
       <div className="p-4">
         <div className="flex justify-between items-start mb-2">
@@ -215,6 +223,24 @@ function MenuCard({ item }) {
         </div>
         <p className="text-muted-foreground mb-4">{item.description}</p>
         <AddToCartButton item={item} />
+      </div>
+    </div>
+  )
+}
+
+function LoadingCard() {
+  return (
+    <div className="bg-gray-400 rounded-lg shadow-md overflow-hidden">
+      <div className="relative h-60">
+        <div className="h-full w-full"></div>
+      </div>
+      <div className="p-4">
+        <div className="flex justify-between items-start mb-2">
+          <h3 className="text-xl font-semibold">loadding...</h3>
+          <span className="font-medium"></span>
+        </div>
+        <p className="text-muted-foreground mb-4"></p>
+        <AddToCartButton  />
       </div>
     </div>
   )
