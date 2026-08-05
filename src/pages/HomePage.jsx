@@ -14,7 +14,7 @@ function HomePage() {
           <div className="relative h-[70vh] w-full">
             <img
               loading="lazy"
-              src="DonutWallpaper.png"
+              src="DonutWallpaper.webp"
               alt="Delicious donuts display"
               className="h-full w-full object-cover"
             />
@@ -42,9 +42,9 @@ function HomePage() {
           <h2 className="text-3xl font-bold text-center mb-12">Fan Favorites</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { name: "Classic Glazed", price: 2.99, image: "GlazedDonut.png" },
-              { name: "Chocolate Raised", price: 3.49, image: "ChocolateDonut.png" },
-              { name: "Maple Bacon", price: 4.29, image: "MapleBaconDonut.png" },
+              { name: "Classic Glazed", price: 2.99, image: "GlazedDonut.webp" },
+              { name: "Chocolate Raised", price: 3.49, image: "ChocolateDonut.webp" },
+              { name: "Maple Bacon", price: 4.29, image: "MapleBaconDonut.webp" },
             ].map((donut, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
                 <div className="relative h-60">
@@ -94,7 +94,7 @@ Born in the heart of Los Angeles in 1980, Landy's Donuts isn't just a shop—it'
               </div>
               <div className="relative h-80 rounded-lg overflow-hidden">
                 <img
-                  src="DonutTruck1980.png"
+                  src="DonutTruck1980.webp"
                   alt="Landy's Donuts storefront"
                   className="h-full w-full object-cover"
                 />

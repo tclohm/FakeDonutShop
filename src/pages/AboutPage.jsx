@@ -25,7 +25,7 @@ function AboutPage() {
           <div className="relative h-80 rounded-lg overflow-hidden">
             <img
               loading="lazy"
-              src="DonutMaking.png"
+              src="DonutMaking.webp"
               alt="Landy's Donuts storefront"
               className="h-full w-full object-cover"
             />
@@ -56,10 +56,10 @@ function AboutPage() {
           <h2 className="text-2xl font-semibold mb-6 text-center">Our Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {[
-              { name: "Landy Johnson", title: "Founder", image: "Mandy.png" },
-              { name: "Sarah Lee", title: "Head Baker", image: "Sarah.png" },
-              { name: "Michael Chen", title: "Operations Manager", image: "Michael.png" },
-              { name: "Jessica Rodriguez", title: "Customer Experience", image: "Jessica.png" },
+              { name: "Landy Johnson", title: "Founder", image: "Mandy.webp" },
+              { name: "Sarah Lee", title: "Head Baker", image: "Sarah.webp" },
+              { name: "Michael Chen", title: "Operations Manager", image: "Michael.webp" },
+              { name: "Jessica Rodriguez", title: "Customer Experience", image: "Jessica.webp" },
             ].map((person, index) => (
               <div key={index} className="text-center">
                 <div className="relative h-48 w-48 mx-auto rounded-full overflow-hidden mb-4">

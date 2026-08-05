@@ -11,28 +11,28 @@ function LocationsPage() {
       address: "4812 W Chelsea Blvd, Inglewood, CA 90301",
       phone: "(555) 555-5551",
       hours: "Monday - Sunday: 5:30am - 9:00pm",
-      image: "InglewoodLocation.png",
+      image: "InglewoodLocation.webp",
     },
     {
       name: "El Segundo",
       address: "912 S Everton Pl, El Segundo, CA 90245",
       phone: "(555) 555-5655",
       hours: "Monday - Sunday: 6:00am - 8:00pm",
-      image: "ElSegundoLocation.png",
+      image: "ElSegundoLocation.webp",
     },
     {
       name: "Hollywood",
       address: "157 Forest City Ave, Los Angeles, CA 90028",
       phone: "(555) 555-5543",
       hours: "Monday - Sunday: 6:00am - 10:00pm",
-      image: "HollywoodLocation.png",
+      image: "HollywoodLocation.webp",
     },
     {
       name: "Downtown LA",
       address: "49 West Brom St, Los Angeles, CA 90014",
       phone: "(555) 555-5552",
       hours: "Monday - Friday: 6:00am - 8:00pm, Saturday - Sunday: 7:00am - 8:00pm",
-      image: "DowntownLALocation.png",
+      image: "DowntownLALocation.webp",
     },
   ]
 

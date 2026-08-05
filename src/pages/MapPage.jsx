@@ -14,7 +14,7 @@ function MapPage() {
           <div className="relative h-[70vh] w-full">
             <img
               loading="lazy"
-              src="FakeLosAngelesMap.png"
+              src="FakeLosAngelesMap.webp"
               alt="Fake Map"
               className="h-full w-full object-cover"
             />
